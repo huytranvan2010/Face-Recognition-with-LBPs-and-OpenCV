@@ -1,10 +1,11 @@
----
-layout: post
-title: "Face recognition with LBPs and OpenCV"
-tags: [Face recognition]
-comments: true
----
-Trong bài trước chúng ta đã tìm hiểu về Face Recognition và một số thuật tán. Trong bài này chúng ta sẽ đi xây dựng hệ thống nhận diện khuôn mặt với Local Bianry Patterns (LBPs) và OpenCV.
+> **Hướng dẫn**:
+Directory `face_detector` chứa 2 file dùng để thực hiện face detection.
+Directory `caltech_faces` chứa các ảnh khuôn mặt của nhiều người.
+Directory `hammiu` chứa một số hàm hữu ích cho nhận diện khuôn mặt.
+
+```python
+python face_recognition_LBPs.py --input caltech_faces
+```
 
 ### Local Binary Patterns (LBPs)
 Thuật toán nhận diện khuôn mặt LBPs lần đầu tiên được giới thiệu vào năm 2004 bởi [Ahonen et al.](https://link.springer.com/chapter/10.1007/978-3-540-24670-1_36)
