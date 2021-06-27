@@ -39,6 +39,9 @@ Khi có khuôn mặt mới LBPs không cần retrain lại từ đầu như Eige
 
 Để thực hành chúng ta sẽ sử dụng bộ dữ liệu [Caltech faces](http://www.vision.caltech.edu/html-files/archive.html) với khoảng 450 ảnh (27 người). Mỗi ảnh được chụp dưới điều kiện ánh sáng, background, các biểu cảm khuôn mặt (facial expression) khác nhau.
 
+### Kết luận
+Chúng ta vừa thực hiện xong face recognition với LBPs. Quá trình training khá nhanh, tuy nhiên quá trình inference chậm do phải duyệt qua tất cả các ảnh trong bộ dữ liệu. Để cải thiện tốc độ chúng ta có thể phải thay đổi thuật toán nearest neighbor
+
 ### Tài liệu tham khảo
 1. https://www.pyimagesearch.com/2021/05/03/face-recognition-with-local-binary-patterns-lbps-and-opencv/
 2. https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
